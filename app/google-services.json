@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "62284831917",
+    "firebase_url": "https://dataentryandroidapp-default-rtdb.firebaseio.com",
+    "project_id": "dataentryandroidapp",
+    "storage_bucket": "dataentryandroidapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:62284831917:android:52e38554f07cfb8b143a24",
+        "android_client_info": {
+          "package_name": "com.example.dataentryandroidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "62284831917-94ue9tua2ih1rph46darmvmf0p1sr7cb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dataentryandroidapp",
+            "certificate_hash": "309bc07aea5fffbbbf69c8b8435d380078ec8eba"
+          }
+        },
+        {
+          "client_id": "62284831917-mh7nfm5h9re8b2vmfem45uu895c3gark.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmRsT4BMg8nWJfvNd7X2DyMGBjqfFgjJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "62284831917-mh7nfm5h9re8b2vmfem45uu895c3gark.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

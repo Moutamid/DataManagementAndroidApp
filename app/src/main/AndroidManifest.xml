@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dataentryandroidapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DataEntryAndroidApp"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".ViewDataActivity"
+            android:exported="false"
+            android:theme="@style/Theme.DataEntryAndroidApp.NoActionBar" />
+        <activity
+            android:name=".AccountsRegistrationScreen.LoginVersions"
+            android:exported="false"
+            android:label="@string/title_activity_login_versions"
+            android:theme="@style/Theme.DataEntryAndroidApp.NoActionBar" />
+        <activity
+            android:name=".user.UserDashboard"
+            android:exported="false"
+            android:label="User Dashboard" />
+        <activity
+            android:name=".admin.AdminDashboard"
+            android:exported="false"
+            android:label="@string/title_activity_admin_dashboard" />
+        <activity
+            android:name=".AccountsRegistrationScreen.Login"
+            android:exported="false"
+            android:theme="@style/Theme.DataEntryAndroidApp.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:theme="@style/Theme.DataEntryAndroidApp.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
